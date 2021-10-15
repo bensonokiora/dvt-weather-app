@@ -22,10 +22,10 @@
 - [Firebase Core] / Crashlytics
 
 **Improvements**
- (run out of time)
--Add room as base storage 
--Add work manager 
--more
+- (I ran out of time) 
+- Add room as base storage 
+- Add work manager 
+- more
 
 
     
