@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacing_medium">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="0dp">
+    </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_weight="1"
+                android:id="@+id/day_name_text_view"
+                style="@style/TextViewInColoredCard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/weather_image_view"
+                android:layout_weight="1"
+
+                android:layout_width="34dp"
+                android:layout_height="34dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_weight="1"
+
+                android:id="@+id/temp_text_view"
+                style="@style/TextViewInColoredCard"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layoutDirection="ltr"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+        </LinearLayout>
+
+    <View
+        android:id="@+id/shadow_view"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+</LinearLayout>
