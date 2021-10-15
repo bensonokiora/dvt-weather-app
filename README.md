@@ -21,7 +21,11 @@
 - [MPAndroidChart]: A powerful & easy to use chart library for Android
 - [Firebase Core] / Crashlytics
 
-**Credit**
+**Improvements (run out of time)**
+-Add room as base storage 
+-Add work manager 
+-more
+
 
     
 [Weather App Freebie]: https://www.uplabs.com/posts/weather-app-freebie    
