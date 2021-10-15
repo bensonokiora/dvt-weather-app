@@ -21,7 +21,8 @@
 - [MPAndroidChart]: A powerful & easy to use chart library for Android
 - [Firebase Core] / Crashlytics
 
-**Improvements (run out of time)**
+**Improvements**
+ (run out of time)
 -Add room as base storage 
 -Add work manager 
 -more
