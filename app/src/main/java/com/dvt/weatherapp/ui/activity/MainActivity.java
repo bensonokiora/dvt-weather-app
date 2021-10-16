@@ -753,6 +753,9 @@ public class MainActivity extends BaseActivity implements EasyPermissions.Permis
     @Override
     public void onPermissionsGranted(int requestCode, @NonNull List<String> perms) {
 
+        if(requestCode == 123){
+            requestWeather();
+        }
     }
 
     @Override
